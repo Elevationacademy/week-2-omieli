@@ -25,15 +25,10 @@
   display: grid;
 }
 
-#friends p {
-  background-color: rgb(202, 122, 202);
+#friends p{
+  background-color: #9B59B6;
   height: 5vh;
+  align-content: center;
+  display: grid;
 }
 
-#chatbox p{
-  background-color: grey;
-}
-
-#time {
-  
-}
