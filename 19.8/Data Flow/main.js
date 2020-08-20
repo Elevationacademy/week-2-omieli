@@ -19,8 +19,12 @@ const posts = [
 
 const render = function(){
     for(let post of posts){
-        $('.posting').append('<div class=post> ${post} </div>');
+        $('.posting').append(`<div class=post> ${post.name}, ${post.text} </div>`);
     }
 }
 render()
 
+$("button").on("click",function(){
+    posts.push(`{${post}}`)
+}
+)
